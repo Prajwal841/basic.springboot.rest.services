@@ -1,4 +1,4 @@
-package net.prajwal.springboot.rest.services.entity;
+package net.prajwal.springboot.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

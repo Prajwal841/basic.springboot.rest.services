@@ -8,7 +8,7 @@
 		<version>3.0.0-M4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>net.prajwal</groupId>
+	<groupId>net.javaguides</groupId>
 	<artifactId>springboot-restful-webservices</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-restful-webservices</name>
@@ -29,10 +29,10 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-	<dependency>
+		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.28</version>
+			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
